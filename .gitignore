@@ -1,0 +1,51 @@
+# Build and generated output
+build*/
+cmake-build-*/
+.vs/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated binaries and debug artifacts
+*.dll
+*.exe
+*.pdb
+*.lib
+*.exp
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+*.dSYM/
+
+# Dependency caches and archives
+.deps/
+*.zip
+*.7z
+*.tar
+*.tar.xz
+*.msi
+*.cab
+
+# Packaging and deployment output
+installer/
+installer_output/
+deployment_backups/
+release/
+
+# Local tools and environment files
+.env
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# CMake-generated build number
+cmake/.CMakeBuildNumber
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
