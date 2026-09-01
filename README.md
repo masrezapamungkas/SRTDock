@@ -103,31 +103,6 @@ SRTDock is distributed under the GNU General Public License, version 2. See [LIC
 
 OBS Studio, Qt, SRT, Tailscale, and ZeroTier are separate projects with their own licenses and trademarks.
 
-## Uploading to GitHub
-
-From this directory:
-
-```bat
-git init
-git add .
-git commit -m "Initial open-source release"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with the GitHub account and repository name you want to use.
-
-Before pushing, review the staged files:
-
-```bat
-git status
-git diff --cached --stat
-git diff --cached
-```
-
-Never commit OBS/Qt dependency bundles, build directories, generated binaries, installer executables, debug symbols, deployment backups, or credentials.
-
 ## Acknowledgements
 
 This project uses the OBS Studio plugin build conventions and CMake support files. Please retain the applicable upstream notices when modifying or redistributing those files.
