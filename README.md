@@ -27,6 +27,23 @@ It provides a compact Qt-based interface for configuring SRT caller, listener, a
 
 The project uses the OBS Studio plugin CMake build structure and its dependency bootstrap files. Dependencies are downloaded or prepared by the build system; they are intentionally not committed to this repository.
 
+## Easy Installation
+
+The easiest way to install SRTDock on Windows is to download the installer from the latest GitHub Release:
+
+[Download SRTDock Setup v0.1.0](https://github.com/masrezapamungkas/SRTDock/releases/download/v0.1.0/SRTDock_Setup_v0.1.0.exe)
+
+Installation steps:
+
+1. Close OBS Studio.
+2. Run `SRTDock_Setup_v0.1.0.exe`.
+3. Accept the license agreement.
+4. Follow the installation wizard until it finishes.
+5. Open OBS Studio again.
+6. If the dock is not visible, open it from `View > Docks > SRTDock`.
+
+The installer is intended for OBS Studio 64-bit installed in the standard Windows location. Administrator permission is required because the plugin is installed into the OBS Studio plugin directory.
+
 ## Build on Windows
 
 Open a Visual Studio Developer Command Prompt for x64, then run:
